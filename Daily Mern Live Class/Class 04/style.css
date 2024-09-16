@@ -1,7 +1,15 @@
+/* this is h2 color */
 h2 {
-    color:chocolate;
+  color: chocolate;
 }
 
-h5 {
-    color: yellowgreen;
+/* this is comment */
+h4 {
+  color: yellowgreen;
 }
+
+/* Practice Exercise all style drop down */
+#heading {
+  color: blue;
+}
+/* This is comment */
