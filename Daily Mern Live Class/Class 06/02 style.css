@@ -1,0 +1,36 @@
+/* Height & Width Property */
+.box {
+  height: 50px;
+  width: 50px;
+}
+#box1 {
+  background-color: red;
+}
+#box2 {
+  background-color: blue;
+}
+#box3 {
+  background-color: green;
+}
+
+/* Background image Property */
+#container {
+  background-image: url(./image.png);
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* Visibility Property */
+.box5 {
+  height: 60px;
+  width: 60px;
+}
+#box8 {
+  background-color: red;
+  visibility: hidden;
+}
+#box7 {
+  background-color: green;
+  visibility: visible;
+}
