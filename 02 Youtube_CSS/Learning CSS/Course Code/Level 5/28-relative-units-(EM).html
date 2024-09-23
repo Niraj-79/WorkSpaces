@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Units EM</title>
+    <style>
+        * { 
+            margin: 0; padding: 0;
+            font-size: 100px;
+        }
+
+        #first {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            font-size: 5px;
+        }
+
+        #second {
+            background-color: blueviolet;
+            width: 70%;
+            height: 50%;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    Body
+    <div id="first"> 
+        first
+        <div id="second">
+            second
+        </div>
+    </div>
+</body>
+</html>

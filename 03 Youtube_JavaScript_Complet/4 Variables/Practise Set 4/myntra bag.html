@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Myntra Bag</title>
+  <link rel="stylesheet" href="myntra bag.css">
+</head>
+<body>
+
+  <!-- First Method & Long Method -->
+
+  <!--
+
+  <button class="bag-button" onclick="cartQuantity = cartQuantity + 1;  document.querySelector(`#cart-summary`).
+  innerText = `Your Bag has ${cartQuantity} items`; ">Add to Bag</button>
+
+  <button class="wish-button" onclick="cartQuantity = cartQuantity - 1;  document.querySelector(`#cart-summary`).
+  innerText = `Your Bag has ${cartQuantity} items`; ">Move to Wishlist</button>
+  
+  <button class="bag-button" onclick="cartQuantity = cartQuantity + 2;  document.querySelector(`#cart-summary`).
+  innerText = `Your Bag has ${cartQuantity} items`; ">Add 1+1 Sale Item</button>
+
+  -->
+
+   
+  <!--  2nd Method & Short Method  -->
+
+  
+   <button class="bag-button" onclick="
+  cartQuantity++;
+  document.querySelector('#cart-summary').innerText = `Your Bag has ${cartQuantity} items`;
+  ">Add to Bag</button>
+
+  <button class="wish-button" onclick="
+  cartQuantity--;
+  document.querySelector('#cart-summary').innerText = `Your Bag has ${cartQuantity} items`;
+  ">Move to Wishlist</button>
+
+  <button class="bag-button" onclick="
+  cartQuantity += 2;
+  document.querySelector('#cart-summary').innerText = `Your Bag has ${cartQuantity} items`;
+  ">Add 1+1 Sale Item
+  </button> 
+
+
+  <h1 id="cart-summary">Your Bag has 0 items</h1>
+
+
+  <script>
+
+    /* first Method 
+    let cartQuantity = 5;
+    document.querySelector('#cart-summary').
+    innerText = 'Your Bag has ' + cartQuantity +' items' */
+
+    let cartQuantity = 0;
+    document.querySelector(`#cart-summary`).
+    innerText = `Your Bag has ${cartQuantity} items`;
+
+  </script>
+  
+</body>
+</html>
