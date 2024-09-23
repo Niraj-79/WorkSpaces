@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Variables</title>
+</head>
+<body>
+  <script>
+
+    let welcomeMessage = 'Hello Friends';
+    console.log('hellow friends');
+    console.log(welcomeMessage);
+
+
+
+    /* 1fst method
+    let bagSummary = `Your final Myntra Bag amount is ₹${Math.round ((( 15599 - (10/100 * 15599)) - 272 + (2499 - ( 41/100*2499)) - 29 + 25 +20 ) * 118 / 100)}`;
+    console.log(bagSummary);/*
+
+    /*2nd method 
+    let bagValue = Math.round((( 15599 - (10/100 * 15599)) - 272 + (2499-(41/100*2499)) - 29 + 25 + 20) * 118 / 100);
+    let bagSummary = `Your final Myntra Bag amount is ₹${bagValue}`;
+    console.log(bagSummary); */
+
+     /*3nd method */
+    let bagPrice = (15599 - (10/100 * 15599)) - 272;
+    let jeansPrice = (2499 - (41/100*2499)) - 29;
+    let bagValue = Math.round((jeansPrice + bagPrice + 25 + 20) * 118 / 100);
+    let bagSummary = `Your final Myntra Bag amount is ₹${bagValue}`;
+    console.log(bagSummary); 
+
+
+    /* start 1 */
+    let a = 5;
+    let b = 6;
+    let c = a + 4;
+    console.log(c);
+    c = b + 2;
+    console.log(c);
+    
+
+    let i = 5;
+    console.log(i);
+    // i = i + 5;
+    i += 5;
+    console.log(i);
+    
+    
+    const pi = 3.14159265359;
+    let radius = 4;
+    //pi = 2;
+    console.log(pi * radius * radius);
+
+  </script>
+</body>
+</html>
