@@ -1,6 +1,7 @@
 const http = require("http");
+const { URLSearchParams } = require("url");
 const server = http.createServer((req, res) => {
-  console.log(req.url, req.method, req.headers);
+  console.log(req.url, req.method);
   const fs = require("fs");
 
   if (req.url === "/") {
@@ -24,11 +25,32 @@ const server = http.createServer((req, res) => {
     return res.end();
   } else if (
     req.url.toLowerCase() === "/submit-details" &&
-    req.method == "POST") {
-      fs.writeFileSync('user.txt', 'Niraj');
-      res.statusCode = 302;
-      res.setHeader('Location', '/');
-    } 
+    req.method == "POST"
+  ) {
+    const body = [];
+    req.on("data", (chunk) => {
+      console.log(chunk);
+      body.push(chunk);
+    });
+    req.on("end", () => {
+      const fullBody = Buffer.concat(body).toString();
+      console.log(fullBody);
+      const params = new URLSearchParams(fullBody);
+
+      /*
+      const bodyObject = {};
+      for (const [key, val] of params.entries()) {
+        bodyObject[key] = val;
+      }
+      */
+      const bodyObject = Object.fromEntries(params);
+      console.log(bodyObject);
+      fs.writeFileSync("user.txt", JSON.stringify(bodyObject));
+    });
+
+    res.statusCode = 302;
+    res.setHeader("Location", "/");
+  }
 
   res.setHeader("Content-Type", "text/html");
   res.write("<html>");
