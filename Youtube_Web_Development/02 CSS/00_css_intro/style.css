@@ -1,0 +1,17 @@
+p {
+  color: green;
+  font-size: 32px;
+  font-family: cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline wavy lightseagreen;
+}

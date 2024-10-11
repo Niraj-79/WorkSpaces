@@ -1,0 +1,79 @@
+li {
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.html {
+  color: #e5532d;
+}
+
+.css {
+  color: #2d53e5;
+}
+
+.js {
+  color: #f7e025;
+}
+
+.react {
+  color: #58c4dc;
+}
+
+.tailwind {
+  color: #38bdf8;
+}
+
+/* 
+#html {
+  font-size: 32px;
+}
+#css {
+  font-size: 32px;
+}
+#js {
+  font-size: 32px;
+}
+#react {
+  font-size: 32px;
+}
+#tailwind {
+  font-size: 32px;
+} */
+
+/* [niraj] {
+  background-color: aquamarine;
+} */
+
+[coder] {
+  background-color: #12d282;
+}
+
+.niraj {
+  background-color: burlywood;
+}
+
+[niraj="code"] {
+  background-color: chocolate;
+}
+
+.web p {
+  font-family: cursive;
+}
+
+h2 {
+  background-color: aquamarine;
+}
+/* h2:hover {
+    background-color: orange;
+} */
+h1:hover {
+  color: blue;
+}
+
+.my-intro {
+  background-color: coral;
+}
+.my-intro:hover {
+  background-color: darkorchid;
+}
