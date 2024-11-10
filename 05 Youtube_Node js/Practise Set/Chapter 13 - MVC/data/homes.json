@@ -1,0 +1,37 @@
+[
+  {
+    "houseName": "Nineth",
+    "price": "1799",
+    "location": "goa",
+    "rating": "3",
+    "photoUrl": "/images/house2.png"
+  },
+  {
+    "houseName": "Nineth new",
+    "price": "11",
+    "location": "2",
+    "rating": "5.5",
+    "photoUrl": "d"
+  },
+  {
+    "houseName": "Nineth new",
+    "price": "11",
+    "location": "2",
+    "rating": "5.5",
+    "photoUrl": "d"
+  },
+  {
+    "houseName": "Nineth new",
+    "price": "11",
+    "location": "2",
+    "rating": "5.5",
+    "photoUrl": "d"
+  },
+  {
+    "houseName": "Nineth new",
+    "price": "11",
+    "location": "2",
+    "rating": "5.5",
+    "photoUrl": "d"
+  }
+]
