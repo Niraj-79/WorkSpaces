@@ -1,0 +1,66 @@
+[
+  {
+    "houseName": "First Home",
+    "price": "1999",
+    "location": "Mumbai",
+    "rating": "4.8",
+    "photoUrl": "/images/house1.png",
+    "id": "0.33908939223519763"
+  },
+  {
+    "houseName": "Second Home",
+    "price": "1499",
+    "location": "Delhi sec 5",
+    "rating": "3",
+    "photoUrl": "/images/house2.png",
+    "id": "2"
+  },
+  {
+    "id": "3",
+    "houseName": "Three Home",
+    "price": "2999",
+    "location": "Bihar",
+    "rating": "3",
+    "photoUrl": "/images/house3.png"
+  },
+  {
+    "id": "4",
+    "houseName": "Fourth Home",
+    "price": "1599",
+    "location": "Chandigarh",
+    "rating": "2.5",
+    "photoUrl": "/images/house4.png"
+  },
+  {
+    "id": "5",
+    "houseName": "Five Home",
+    "price": "1699",
+    "location": "Punjab",
+    "rating": "3.5",
+    "photoUrl": "/images/house5.png"
+  },
+  {
+    "id": "6",
+    "houseName": "Sixth Home",
+    "price": "1799",
+    "location": "Mohali",
+    "rating": "4.5",
+    "photoUrl": "/images/house6.png"
+  },
+  {
+    "id": "7",
+    "houseName": "Seventh Home",
+    "price": "1899",
+    "location": "Haryana",
+    "rating": "5",
+    "photoUrl": "/images/house7.png"
+  },
+  {
+    "id": "8",
+    "houseName": "Eight Home",
+    "price": "1999",
+    "location": "Sector-8",
+    "rating": "5",
+    "photoUrl": "/images/house6.png"
+  }
+]
