@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class #20</title>
+    <style>
+      .addToBag,
+      .addWishlist {
+        background-color: #79c279;
+        border-radius: 9px;
+        padding: 6px 15px;
+        font-size: 12px;
+        border: none;
+      }
+      #wishlist {
+        border: 2px solid black;
+        padding: 5px 25px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Class #20</h1>
+    <b>#01. Create a button with text click</b>
+    <button>Click Me</button>
+    <hr />
+
+    <b>#02. Create 2 buttons with class and id</b>
+    <button id="firstButton">First Button</button>
+    <button id="secondButton">Second Button</button>
+    <hr />
+
+    <b>#03. Create a paragraph</b>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nisi
+      nulla soluta quibusdam, autem possimus.
+    </p>
+    <hr />
+
+    <b>#04. Add color to two buttons</b>
+    <button style="color: green">Green Button</button>
+    <button style="color: blue">Blue Button</button>
+    <hr />
+
+    <b>#07 Try to copy the given design on the bottom</b>
+    <button id="bag" class="addToBag">Add to Bag</button>
+    <button id="wishlist" class="addToWishlist">❤️WISHLIST</button>
+    <hr />
+
+    <b>#08 Add script element to page to show welcome alert</b>
+    <button id="bag" class="addToBag" onclick="alert('Add to Bag')">
+      Add to Bag
+    </button>
+    <button
+      id="wishlist"
+      class="addToWishlist"
+      onclick="alert('Add to Wishlist')"
+    >
+      ❤️WISHLIST
+    </button>
+  </body>
+</html>
