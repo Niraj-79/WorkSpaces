@@ -1,2 +1,0 @@
-# Workspaces
-All My Projects.
